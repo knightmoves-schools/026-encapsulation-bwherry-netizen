@@ -1,12 +1,12 @@
 ﻿namespace knightmoves;
 
-public class ProceduralCode
+public class Rectangle
 {
 
     private int _length;
     private int _height;
     
-    public class Rectangle(int length, int height) 
+    public Rectangle (int length, int height) 
     {
             _length = length;
             _height = height;
@@ -17,6 +17,7 @@ public class ProceduralCode
         return _length * _height;
     }
 }
+
 
 
 
