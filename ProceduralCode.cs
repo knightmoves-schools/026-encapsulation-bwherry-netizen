@@ -1,12 +1,21 @@
 ﻿namespace knightmoves;
+
 public class ProceduralCode
 {
-    public int length = 5;
-    public int height = 10;
 
-    public int CalculateArea(int length, int height){
-        return length * height;
+
+    public int CalculateArea()
+    {
+
     }
+    
 }
 
-// Add your code here
+public class Rectangle (int length, int height) 
+{
+        public int length = 5;
+        public int height = 10;
+
+        return length * height;
+}
+
