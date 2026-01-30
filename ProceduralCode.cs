@@ -3,19 +3,19 @@
 public class ProceduralCode
 {
 
-
-    public int CalculateArea()
-    {
-
-    }
+    private int _length;
+    private int _height;
     
+    public class Rectangle (int length, int height) 
+    {
+            _length = length;
+            _height = height;
+    }
+
+    public int CalculateArea() {
+            return _length * _height;
+        }
 }
 
-public class Rectangle (int length, int height) 
-{
-        public int length = 5;
-        public int height = 10;
 
-        return length * height;
-}
 
